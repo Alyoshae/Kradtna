@@ -1,4 +1,4 @@
-## KRADTNA
+## Kradtna
 - Proyectos personales para mi crecimiento como matematico y programador grafico. 
 - Actualmente soy estudiante de la facultad de ciencias fisico matematico en monterrey Nuevo Léon. 
 - Como hobbie suelo leer mucho filosofia y tocar la guitarra. 
@@ -8,6 +8,7 @@
 
 ## JUNIO 2026
 - [x] 01: Empezamos una biblioteca matematica para utilizar en mis proyectos 
+- [x] 22: Repaso de la herramienta c++ 
 
 
 ## RERENCIAS 
