@@ -9,6 +9,8 @@
 ## JUNIO 2026
 - [x] 01: Empezamos una biblioteca matematica para utilizar en mis proyectos 
 - [x] 22: Repaso de la herramienta c++ 
+## JULIO 2026 
+- [x] 18: Normalizacion de vector y magnitud en libreria de mate 
 
 
 ## RERENCIAS 
