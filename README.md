@@ -11,6 +11,7 @@
 - [x] 22: Repaso de la herramienta c++ 
 ## JULIO 2026 
 - [x] 18: Normalizacion de vector y magnitud en libreria de mate 
+- [x] 26: Mejoras en la clase y empezamos ray tracer 
 
 
 ## RERENCIAS 
