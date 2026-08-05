@@ -18,10 +18,14 @@ class Vector3{
     //PRODUCTO PUNTO 
     double operator*(const Vector3&) const; 
     //MAGNITUD
+    double mag_squared() const;
     double mag() const;
     //NEGACION
     Vector3 operator-() const;
-
+    //LECTURA
+    double operator[](int i) const{return v[i];}
+    double& operator[](int i){return v[i];}
+    //NORMALIZACION 
 
     private: 
     double v[3];
@@ -31,9 +35,9 @@ class Vector3{
 Vector3::Vector3() : v{0,0,0} {}
 Vector3::Vector3(double x, double y, double z) : v{x,y,z} {}
 
-//NEGACION (AREGLAR) 
+//NEGACION 
 Vector3 Vector3::operator-() const{
-    return(-v[0],-v[1],-v[2]);
+    return(Vector3(-v[0],-v[1],-v[2]));
 }
 
 //SUMA DE VECTORES 
@@ -67,23 +71,28 @@ Vector3& Vector3::operator*=(double escalar){
 
 //DIVIDIR POR ESCALAR (MULTIPLICAR) 
 Vector3& Vector3::operator/=(double escalar){
-    v[0]/=escalar;
-    v[1]/=escalar;
-    v[2]/=escalar;
-    return *this;
+    return *this *= 1/escalar;
 }
 
-//MAGNITUD
-double Vector3::mag() const{
+//MAGNITUD AL CUADRADO
+double Vector3::mag_squared() const{
     return(sqrt(v[0]*v[0]+v[1]*v[1]+v[2]*v[2]));
 }
 
-int main(){
-    Vector3 willy{4,2,3}; 
-    Vector3 diego{2,3,5}; 
-
-    std::cout << willy.mag(); 
-    std::cout << '\n' << willy.x(); 
-    return 0; 
-
+//MAGNITUD 
+double Vector3::mag() const{
+    return(sqrt(mag_squared()));
 }
+
+std::ostream& operator<<(std::ostream& out, const Vector3& v){
+    return out << v.x() << ' ' << v.y() << ' ' << v.z();
+}
+
+//NORMALIZAR 
+
+
+int main(){
+
+    return 0; 
+}
+
