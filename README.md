@@ -14,6 +14,8 @@
 - [x] 26: Mejoras en la clase y empezamos ray tracer 
 ## AGOSTO 2026
 - [x] 27: Terminamos dos clases una breve pausa al proyecto. 
+- [x] 20: Empezamos libro a introduccion grafica. 
+
 
 
 ## RERENCIAS 
