@@ -1,4 +1,4 @@
-## Kradtna
+## Mañana
 - Proyectos personales para mi crecimiento como matematico y programador grafico. 
 - Actualmente soy estudiante de la facultad de ciencias fisico matematico en monterrey Nuevo Léon. 
 - Como hobbie suelo leer mucho filosofia y tocar la guitarra. 
@@ -15,6 +15,8 @@
 ## AGOSTO 2026
 - [x] 27: Terminamos dos clases una breve pausa al proyecto. 
 - [x] 20: Empezamos libro a introduccion grafica. 
+## SEPTIEMBRE 2026 
+- [x] 10: Vector con memoria libre empezado
 
 
 
